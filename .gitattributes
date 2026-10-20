@@ -1,0 +1,8 @@
+# 脚本保持原样，避免换行转换把 BOM 或 CRLF 弄坏
+*.ps1 -text
+*.cs  -text
+*.bat -text
+
+# 文档走文本
+*.md text eol=lf
+*.yml text eol=lf
